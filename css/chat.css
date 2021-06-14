@@ -230,3 +230,9 @@ main.chat .chat__messages {
 .outgoing-message{
     animation: sentAnimation 0.5s ease-out forwards;
 }
+
+.reminderscreenimg{
+    width: 500px;
+    height: 1000px;
+    object-fit: contain;
+}
