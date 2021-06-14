@@ -234,5 +234,5 @@ main.chat .chat__messages {
 .reminderscreenimg{
     width: 500px;
     height: 1000px;
-    object-fit: contain;
+    object-fit: cover;
 }
