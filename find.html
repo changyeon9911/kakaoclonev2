@@ -12,7 +12,7 @@
 <body>
     <header class="header">
         <div class="header__header-column">
-            <h1 class="header__title">Find Questions</h1>
+            <h1 class="header__title">Detailed Questions</h1>
         </div>
         <div class="header__header-column">
             <span class="header__icon">
@@ -29,39 +29,66 @@
         <header class="find__header">
             <ul class="find__header-list">
                 <li class="find__header-btn header-btn">
+                    <a href="search_persona.html">
                     <span class="header-btn__icon">
-                        <i class="fas fa-qrcode fa-2x"></i>
+                        <i class="fas fa-users fa-2x"></i>
                     </span>
+                    </a>
                     <span class="header-btn__title">
-                        QR code
+                        Search by Persona
                     </span>
                 </li>
                 <li class="find__header-btn header-btn">
+                    <a href="search_subject.html">
                     <span class="header-btn__icon">
-                        <i class="fas fa-user-plus fa-2x"></i>
+                        <i class="fas fa-book fa-2x"></i>
                     </span>
+                    </a>
                     <span class="header-btn__title">
-                        Add by Contacts
-                    </span>
-                </li>
-                <li class="find__header-btn header-btn">
-                    <span class="header-btn__icon">
-                        <i class="far fa-id-card fa-2x"></i>
-                    </span>
-                    <span class="header-btn__title">
-                        Add by ID
-                    </span>
-                </li>
-                <li class="find__header-btn header-btn">
-                    <span class="header-btn__icon">
-                        <i class="far fa-envelope fa-2x"></i>
-                    </span>
-                    <span class="header-btn__title">
-                        Invite
+                        Search by Subject
                     </span>
                 </li>
             </ul>
         </header>
+        <ul class="find__recommended">
+            <h5 class="find__title">
+                Recommended Persona
+            </h5>
+            <li class="find__friend friend">
+                <div class="friend__column">
+                    <img src="screenshots/logo.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            대입면접관
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <a href="persona_chat_interview.html">
+                    <div class="friend__add-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    </a>
+                </div>
+            </li>
+            <li class="find__friend friend">
+                <div class="friend__column">
+                    <img src="screenshots/logo.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            투자전문가
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <a href="persona_chat_invest.html">
+                    <div class="friend__add-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    </a>
+                </div>
+            </li>
+        </ul>
         <ul class="find__recommended">
             <h5 class="find__title">
                 Recommended Subjects
@@ -71,7 +98,7 @@
                     <img src="screenshots/logo.jpg" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
-                            투자론
+                            주식투자
                         </span>
                     </div>
                 </div>
@@ -86,7 +113,7 @@
                     <img src="screenshots/logo.jpg" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
-                            재무관리
+                            재무회계
                         </span>
                     </div>
                 </div>

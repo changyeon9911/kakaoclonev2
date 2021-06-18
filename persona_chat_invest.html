@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0138e15995.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <title>Chat | Kakao Clone</title>
+    <title>Upload | Askers</title>
 </head>
 
 <body class="chats-body">
     <div class="header-wrapper">
         <header class="header">
             <div class="header__header-column">
-                <a href="friends.html" class="header__back-btn">
+                <a href="find.html" class="header__back-btn">
                     <i class="fas fa-arrow-left"></i>
                 </a>
-                <h1 class="header__title">Asker</h1>
+                <h1 class="header__title">투자전문가 Asker</h1>
             </div>
             <div class="header__header-column">
                 <span class="header__icon">
@@ -28,9 +28,24 @@
             </div>
         </header>
     </div>
-    <main class="reminderscreen">
-        <img class="reminderscreenimg" src="screenshots\remindscreenshot.jpg"/>
+    <main class="chat">
+        <ul class="chat__messages">
+            <span class="chat__timestamp">Friday, January 11, 2020</span>
+            <li class="incoming-message message">
+                <img src="screenshots/logo.jpg" class="friend_avatar" />
+                <div class="message__content">
+                    <span class="message__author">Asker</span>
+                    <div class="message__bubble">
+                        뉴스 자료를 올려주세요.
+                    </div>
+                </div>
+                <span class="message__timestamp"></span>
+            </li>
+        </ul>
     </main>
+    <div class="chat__write--container">
+        <input class="chat__write" type="file" placeholder="send message" class="chat__write-input">
+    </div>
     <div class="bigScreen">
         <span class="bigScreen__text">Please make your screen smaller</span>
     </div>
