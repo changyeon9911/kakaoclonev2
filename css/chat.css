@@ -234,3 +234,11 @@ main.chat .chat__messages {
 .reminderscreenimg{
     object-fit: cover;
 }
+
+#Helpful{
+    background-color: #557bd9;
+}
+
+#Unhelpful{
+    background-color: white;
+}
